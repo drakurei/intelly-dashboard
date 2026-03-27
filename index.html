@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelly - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="page-wrapper">
+
+        <!-- ===== SIDEBAR ===== -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <div class="logo-icon">i</div>
+                <span class="logo-text">intelly</span>
+            </div>
+
+            <p class="menu-label">MENU</p>
+
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active">
+                    <!-- icone dashboard -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                    Dashboard
+                </a>
+                <a href="#" class="nav-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                    </svg>
+                    Order
+                </a>
+                <a href="#" class="nav-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                    </svg>
+                    Report
+                </a>
+                <a href="#" class="nav-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    Track
+                </a>
+                <a href="#" class="nav-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"></path>
+                    </svg>
+                    Maintainance
+                </a>
+            </nav>
+
+            <p class="menu-label">SYSTEM</p>
+
+            <nav class="nav-menu">
+                <a href="#" class="nav-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                    </svg>
+                    Master Data
+                </a>
+                <a href="#" class="nav-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    User
+                </a>
+                <a href="#" class="nav-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 00-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 010 7.75"></path>
+                    </svg>
+                    Role
+                </a>
+            </nav>
+
+        </aside>
+        <!-- fin sidebar -->
+
+        <!-- ===== CONTENU PRINCIPAL ===== -->
+        <div class="main-content">
+
+            <!-- header / topbar -->
+            <header class="topbar">
+                <div class="search-bar">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" placeholder="Search">
+                </div>
+
+                <div class="topbar-right">
+                    <div class="user-badge">
+                        <div class="user-avatar">🍔</div>
+                        <span>Delicious Burger</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="notif-btn">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2">
+                            <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 01-3.46 0"></path>
+                        </svg>
+                        <span class="notif-dot"></span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- zone de contenu -->
+            <div class="content-area">
+
+                <h1 class="page-title">Dashboard</h1>
+
+                <!-- cartes statistiques -->
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+                        <div class="stat-icon purple">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11a2 2 0 012 2v3m-2 14H9a2 2 0 01-2-2v-8a2 2 0 012-2h11a2 2 0 012 2v8a2 2 0 01-2 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-value">2.409 <span class="stat-trend up">↑ 2.1%</span></div>
+                            <div class="stat-label">Jumlah Pemesan</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon green">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-value">68,9%</div>
+                            <div class="stat-label">Pesanan Selesai</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon blue">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8v8m-8-5v5m-4 0h16"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-value">68,9%</div>
+                            <div class="stat-label">KPI Driver</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon red">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 00-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 010 7.75"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-value">3.509</div>
+                            <div class="stat-label">Total Customer</div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- fin stats -->
+
+                <!-- section du milieu : graphique + top clients -->
+                <div class="middle-section">
+
+                    <!-- graphique -->
+                    <div class="card chart-card">
+                        <div class="card-header">
+                            <h2 class="card-title">Statistik Pemesanan</h2>
+                            <div class="date-badge">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                18/12/2021
+                            </div>
+                        </div>
+
+                        <!-- barres du graphique -->
+                        <div class="chart">
+                            <!-- axe Y -->
+                            <div class="chart-y-axis">
+                                <span>1000</span>
+                                <span>800</span>
+                                <span>600</span>
+                                <span>400</span>
+                                <span>200</span>
+                                <span>0</span>
+                            </div>
+
+                            <!-- les barres -->
+                            <div class="chart-bars">
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 80%"></div>
+                                    <span class="bar-label">Jan</span>
+                                </div>
+                                <div class="bar-col">
+                                    <!-- barre active = Feb -->
+                                    <div class="bar active" style="height: 100%"></div>
+                                    <span class="bar-label active-label">Feb</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 52%"></div>
+                                    <span class="bar-label">Mar</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 28%"></div>
+                                    <span class="bar-label">Apr</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 48%"></div>
+                                    <span class="bar-label">Mei</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 40%"></div>
+                                    <span class="bar-label">Jun</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 36%"></div>
+                                    <span class="bar-label">Jul</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 88%"></div>
+                                    <span class="bar-label">Aug</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 68%"></div>
+                                    <span class="bar-label">Sep</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 60%"></div>
+                                    <span class="bar-label">Okt</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 76%"></div>
+                                    <span class="bar-label">Nov</span>
+                                </div>
+                                <div class="bar-col">
+                                    <div class="bar" style="height: 64%"></div>
+                                    <span class="bar-label">Des</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin graphique -->
+
+                    <!-- top clients -->
+                    <div class="card top-customers-card">
+                        <h2 class="card-title">Customer Pemesan Terbanyak</h2>
+
+                        <ul class="customer-list">
+                            <li><span>PT Javan Cipta Solusi</span><span>450</span></li>
+                            <li><span>CV ABCD</span><span>449</span></li>
+                            <li><span>CV OQURY TRESNA ANJANI</span><span>443</span></li>
+                            <li><span>PT Javan Solusi</span><span>441</span></li>
+                            <li><span>PT Insan Cipta Solusi</span><span>420</span></li>
+                            <li><span>PT Mitra Informatika</span><span>412</span></li>
+                            <li><span>PT Garnatechno Indonesia</span><span>411</span></li>
+                            <li><span>Patra Jasa</span><span>390</span></li>
+                            <li><span>Patra Arun Badak</span><span>387</span></li>
+                            <li><span>Pertamina Corporate University</span><span>376</span></li>
+                            <li><span>Pertamina RU IV</span><span>361</span></li>
+                            <li><span>PT Pertamina Kilang Balikpapan</span><span>355</span></li>
+                        </ul>
+                    </div>
+                    <!-- fin top clients -->
+
+                </div>
+                <!-- fin middle section -->
+
+                <!-- tableau overview -->
+                <div class="card table-card">
+                    <div class="card-header">
+                        <h2 class="card-title">Overview Pemesanan</h2>
+                        <div class="search-bar small">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                            <input type="text" placeholder="Search...">
+                        </div>
+                    </div>
+
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Nama Customer</th>
+                                <th>Jenis</th>
+                                <th>Kuantitas</th>
+                                <th>Tanggal Pengiriman</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Brad Simmons</td>
+                                <td>Pertamax</td>
+                                <td>2000 Liter</td>
+                                <td>21 Desember 2021</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jessie Clarcson</td>
+                                <td>Turbo</td>
+                                <td>2000 Liter</td>
+                                <td>20 Desember 2021</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Brad Simmons</td>
+                                <td>Pertamax</td>
+                                <td>2000 Liter</td>
+                                <td>21 Desember 2021</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jessie Clarcson</td>
+                                <td>Turbo</td>
+                                <td>2000 Liter</td>
+                                <td>20 Desember 2021</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Brad Simmons</td>
+                                <td>Pertamax</td>
+                                <td>2000 Liter</td>
+                                <td>21 Desember 2021</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jessie Clarcson</td>
+                                <td>Turbo</td>
+                                <td>2000 Liter</td>
+                                <td>20 Desember 2021</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Brad Simmons</td>
+                                <td>Pertamax</td>
+                                <td>2000 Liter</td>
+                                <td>21 Desember 2021</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- pagination -->
+                    <div class="pagination">
+                        <button class="btn-page">Prev</button>
+                        <button class="btn-page active-page">1</button>
+                        <button class="btn-page">2</button>
+                        <button class="btn-page">3</button>
+                        <button class="btn-page">4</button>
+                        <button class="btn-page">5</button>
+                        <button class="btn-page next">Next</button>
+                    </div>
+
+                </div>
+                <!-- fin tableau -->
+
+            </div>
+            <!-- fin content area -->
+
+        </div>
+        <!-- fin main content -->
+
+    </div>
+    <!-- fin page wrapper -->
+
+</body>
+</html>
